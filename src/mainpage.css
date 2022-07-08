@@ -1,0 +1,87 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css");
+#top-img{
+    height: 25vh;
+    transform: translateX(-4vw);
+}
+#newlogo{
+    height: 15vh;
+    transform: translate(14vw,-12vh);
+}
+.middle-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 67px;
+    padding-right: 40px;
+    transform: translateY(-15vh);
+
+}
+.middle-content > p{
+   font-size: 32px;
+   font-family: 'HK Grotesk', sans-serif;
+   font-weight: Bold ;
+}
+#middle-img{
+    position: absolute;
+    top: 40%;
+    right: -2%;
+    width: 45vw;
+}
+#bn60 {
+    background-color: #024959;
+    color: #ffffff;
+    font-family: 'HK Grotesk', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    outline: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 56px;
+    width: 196px;
+  
+
+  }
+
+  .bottom-content{
+    margin-top: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .bottom-creation{
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+  }
+  .bottom-creation > p {
+    font-family: "Poppins";
+  }
+  .bottom-creation > input{
+    margin-left: 30px;
+    background-color: #F2E3D5;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    outline: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 39px;
+    width: 145px;
+    box-shadow: rgba(255, 255, 255, 0.26) 0px 4px;
+
+
+
+  }
+  #bn70{
+    border: none;
+    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.25));
+  }

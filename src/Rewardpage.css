@@ -1,0 +1,134 @@
+  
+    @import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css");    
+    .contient_réduction {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 12px 0 25px 15px;
+        border-radius: 20px;
+        width: 150px;
+        height: 40px;
+        background-color: #E1F4FF;
+    }
+    .reward-boxes{
+        min-height: 88vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0.8vh;
+    }
+
+    .box_benefice {
+        border-radius: 10px;
+        margin-top: 2vh;
+        width: 320px;
+        height: 130px;
+        background-color: white;
+        box-shadow: 0 0px 5px rgb(134, 134, 134);;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .benefice {
+        margin-top: 5px;
+        color: #134074;
+        font-family: 'hk-grotesk', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .benefice1 {
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+        margin-top: 15px;
+        display: flex;
+        width: 60vw;
+        align-items: center;
+        border-radius: 15px;
+        justify-content: space-between;
+        height: 35px;
+        background-color: #6ACF8C;
+    }
+    .benefice2 {
+        width: 60vw;
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        border-radius: 15px;
+        justify-content: space-between;
+        height: 35px;
+        background: rgba(242, 227, 213, 0.95);
+    }
+    .box_benefice img {
+        margin-left: 4px;
+        width: 30px;
+        height: 30px;
+    }
+    .points7 {
+        margin-right: 4px;
+        font-family: 'hk-grotesk', sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    .activer_offre1 {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        margin-top: 12px;
+        width: 150px;
+        height: 35px;
+        background-color: #3CA6A6;
+    }
+
+    .activer_offre1 .activer_offre {
+        color: #FFFFFF;
+        font-family: 'hk-grotesk', sans-serif;
+        font-weight: 500;
+    }
+    .reduction-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 88vh ;
+        background-color: #F1F1F1;
+    }
+    .reduction-content >*{
+        margin-top: 3vh;
+    }
+    .reduction-top{
+        color: #134074;
+        font-weight: bold;
+        font-size: 5vw;
+        margin-right: 20vw;
+        margin-left: 20vw;
+        text-align: center;
+    }
+    .reduction-amount{
+        font-size: 5vw;
+        height: 5vh;
+        border: 2px solid grey;
+        border-radius: 8px;
+    }
+    .reduction-submit{
+        background-color: #3CA6A6;
+        font-size: 2vh;
+        width: 40vw;
+        height: 8vh;
+        color: white;
+        border-radius: 15px;
+        border: none;
+    }
+    .currentprogress{
+        background: rgb(106, 207, 140);
+        height: 100%;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }

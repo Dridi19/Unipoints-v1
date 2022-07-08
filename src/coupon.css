@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#coupon{
+    margin-top: 20vh;
+}
+.container {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.Title1 {
+    display: flex;
+    font-size: larger;
+    font-weight: 900;
+    text-align: center;
+    justify-content: center;
+
+}
+.title1 {
+    width: 300px;
+    margin: 20px;
+    color: #3CA6A6;
+}
+.Title2 {
+    display: flex;
+    font-size: larger;
+    font-weight: 900;
+    font-family: 'Roboto';
+    justify-content: center;
+}
+.QRcode{
+    display: flex;
+    justify-content: center;
+}
+#QRcode , #QRcode>img {
+    height: 200px;
+    width: 200px;
+    background-color: #3CA6A6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.or {
+    display: flex;
+    justify-content: center;
+}
+.ajouter {
+    display: flex;
+    justify-content: center;
+}
+#ajouter {
+    width: 336px;
+    height: 88px;
+    background: rgba(60, 166, 166, 0.75);
+    border-radius: 25px;
+    border: none;
+
+}

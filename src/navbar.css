@@ -1,0 +1,37 @@
+.navbar ul{
+    width: 92vw;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-left: 3.5vw;
+    padding-right: 4.5vw;
+
+
+}
+.navbar ul li{
+    list-style-type: none; 
+    width: 19vw;
+
+}
+.navbar{
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    position: fixed;
+    max-height: 12vh;
+}
+.navbar > ul > li > a > img {
+    height: 4vh;
+
+}
+.navbar > ul > li >p{
+    padding: 0;
+    margin-top: 5px;
+}
+.navbar > ul > li{
+    max-height: 9vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
